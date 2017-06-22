@@ -1,0 +1,35 @@
+body aside {
+  z-index: 10;
+  position: absolute;
+  width: 300px;
+  height: 100%;
+  background: #24272a;
+  color: #eee;
+  box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.5);
+  transition: 0.25s ease 0s; }
+  body aside .side-foot {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    padding: 5px;
+    text-align: center; }
+body aside.minify {
+  transform: translate(-150px, 0px);
+  box-shadow: 0px 0px 0px transparent; }
+body section {
+  min-width: 1150px;
+  padding-left: 5%;
+  min-height: 80%; }
+body article {
+  border: none; }
+body div.chart {
+  background: #24272a;
+  padding: 10px; }
+body ul li {
+  background: transparent;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
+  color: #eee; }
+body ul li:hover {
+  background: rgba(255, 255, 255, 0.1); }
+
+/*# sourceMappingURL=index.css.map */
